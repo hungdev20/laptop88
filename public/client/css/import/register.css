@@ -1,0 +1,105 @@
+/* sign-up */
+.signup-content, .login-content{
+    padding-bottom: 100px;
+}
+div.signup-content, div.login-content{
+    padding-top: 50px
+}
+.signup-form, .login-form {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+}
+.signup-form h2, .login-form h2{
+    line-height: 1.66;
+    margin: 0 0 25px 0;
+    padding: 0;
+    font-weight: bold;
+    color: #222;
+    font-family: Poppins;
+    font-size: 36px;
+}
+#form-register .form-group, #form-login .form-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.agree-term {
+    display: inline-block;
+    width: auto;
+}
+.signup-form, .signup-image, .login-form, .login-image {
+    width: 42%;
+    overflow: hidden;
+}
+.signup-form label:not(.agree-label), .login-form label:not(.control){
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    color: #222;
+} 
+.signup-form input:not(.agree-term), .login-form input:not(.rmb_me){
+     width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+/* LOGIN */
+.login-form{
+    background: #fff;
+    padding-right: 42px;
+}
+.control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.control .caption {
+    position: relative;
+    top: .2rem;
+    color: #888;
+}
+.control-indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border-radius: 4px;
+}
+input.rmb_me{
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+.login-form .btn-login, .login-form .resetPass{
+    margin-bottom: 40px;
+    border-radius: 30px;
+    height: 55px;
+}
+div.eye{
+position: relative;
+cursor: pointer;
+}
+div.eye i{
+    position: absolute;
+    right: 0;
+    top: -18px;
+}
+#hover-reg , #hover-home{
+    color: blue; font-size:18px; text-decoration:none;
+}
+#hover-reg:hover , #hover-home:hover{
+color: red;
+}

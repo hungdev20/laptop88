@@ -1,0 +1,108 @@
+/* CATEGORY-PRODUCT */
+div#js_banner_category {
+    margin-bottom: 20px;
+}
+div#js_banner_category div.owl-item{
+    margin-right: 5px;
+}
+#head-list .cat-name{
+    color: #222;
+    font-size: 29px;
+    padding: 10px 0 10px;
+}
+.wp-product li{
+    margin-bottom: 20px;
+}
+
+.right-head-list{
+    padding: 10px 0 10px;
+}
+.right-head-list p.desc{
+    margin-bottom: 5px;
+    color: #666;
+}
+.right-wp-filter{
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+div#wp-list div#sort{
+    min-height: 1000px;
+}
+.right-wp-filter .wp-filter-price{
+    margin-bottom: 25px;
+}
+.right-wp-filter h1{
+    font-size: 1.5em !important;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.right-wp-filter .wp-filter-price form#filter-range p{
+    font-size: 18px;
+    color: #ee5253;
+    font-weight: 500;
+}
+.right-wp-filter .wp-filter-brand{
+    margin-bottom: 15px;
+}
+.filter-body{
+    padding-left: 20px;
+}
+.filter-body .item{
+    display: inline-block;
+    font-size: 17px;
+    max-width: 135px;
+}
+ul.wp-product li.col-md-2{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+ul.wp-product .card-prd .btn{
+    font-size: 11px;
+}
+#wp-left-list ul.wp-product{
+    margin-top: 59px;
+}
+div#pagination_product nav, div#paginationForFilterProduct nav{
+    display: inline-block;
+}
+li.page-item i.fas{
+    font-size: 8px;
+}
+div.preview_pro{
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 125px;
+    z-index: 1000;
+}
+li.prHA:hover + div.preview_pro{
+    display: block;
+}
+div.preview_pro li span{
+    font-size: 14px !important;
+    font-family: 'Roboto Regular' !important; 
+}
+div.preview_pro div.card-header{
+    background: #546ce8;
+    color: #fff;
+    font-weight: bold;
+}
+div.preview_pro ul li{
+    margin-bottom: 10px;
+}
+div.preview_pro div.card-footer{
+    color: red;
+    font-size: 20px;
+    background-color: none !important;
+}
+div#slider-range div.ui-widget-header{
+    background: #546ce8;
+}
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+div#footer-wp{
+ 
+    background: #546ce8;
+    border-radius: 11px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+div.col-content>div{
+    flex-direction: column;
+    width: 20.6666%;
+}
+div.col-content h4 {
+    font-size: 15px;
+    margin: 10px 0 6px 0;
+    font-weight: bold;
+}
+div.col-content h4 a{
+    color: #fff;
+    display: block;
+}
+ div.link-content ul li a{
+    color: #ddd;
+    display: block;
+}
+div.link-content ul li {
+    margin-bottom: 3px;
+}
+a.hotline{
+    display: inline-block;
+    margin-top: 3px;
+    padding: 6px 10px;
+    background: #fff;
+    border-radius: 4px;
+    color: #00483d;
+    font: Bold 18px/18px -apple-system,BlinkMacSystemFont,'Segoe UI';
+}
+ul.list-logo{
+    margin-top: 10px;
+}
+ul.list-logo img{
+   display: inline-block;
+   margin-right: 5px;
+}
+div.info_footer{
+    padding-top: 30px;
+    text-align: center;
+}

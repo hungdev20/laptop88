@@ -1,0 +1,110 @@
+div.inf_avatar{
+    width: 40%;
+
+}
+div.inf_avatar img{
+    border-radius: 50%;
+}
+div.inf_text{
+    padding-left: 8px;
+}
+.inf_2{
+    margin-top: 25px;
+}
+div#sidebar_user{
+    padding-top: 20px;
+    flex-basis: 14%;
+    margin-right: 10px;
+}
+div#inner_info{
+    background: #fff; padding-left:40px ;padding-top: 20px; flex-basis: 84%;
+}
+div#sidebar_user a{
+    font-size: 17px;
+    color: rgba(0,0,0,.8);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+div#sidebar_user a.active{
+    color: red;
+}
+div.stardust-dropdown{
+    padding-left: 33px;
+}
+/* div.stardust a{
+    color: rgba(0,0,0,.8);
+    margin-bottom: 10px;
+} */
+div.inf_3{
+    margin-top: 25px;
+}
+div.hinfo{
+    margin-bottom: 18px;
+    border-bottom: .0625rem solid #efefef;
+    padding-bottom: 10px;
+}
+div.hinfo h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+div.binfo div.left-info label{
+    font-size: 16px;
+}
+button.save_info{
+    padding: 8px 25px;
+}
+
+div.img_avatar img{
+    border-radius: 50%;
+}
+/* ORDER */
+div.tabLinks{
+    margin-bottom: 25px;
+}
+div.tabLinks a.link{
+    padding: 14px 0;
+    color: #220b0b;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0,0,0,.09);
+}
+div.tabLinks a.border_active{
+    border-bottom: 2px solid red;
+ 
+}
+div.hasID span.icon-search{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+div.prd_item div.product-title{
+    color: #272727;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+div.minizsBB div.prd_item{
+    border-bottom: 1px solid rgba(0,0,0,.09);
+}
+div.bill-item{
+    border-bottom: 1px solid rgba(0,0,0,.09);
+}
+button#cancel_order{
+    margin: 0 0 1rem 3rem;
+}
+span.codeHA{
+    font-size: 18px;
+}
+span.notPay{
+    color:#ff6b6b; font-size:18px
+}
+div.totHA{
+    font-size: 20px;
+    padding-right: 10px;
+}
+div.tot{
+    color: red;
+    font-size: 20px;
+}
+div.total_order{
+    margin: 20px 20px 30px 0;
+}
